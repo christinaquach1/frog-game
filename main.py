@@ -14,12 +14,12 @@ while True:
   if game_board == [
       team_2, team_2, team_2, team_2, space, team_1, team_1, team_1, team_1
   ]:
-    print('1️⃣\t2️⃣\t3️⃣\t4️⃣\t5️⃣\t6️⃣\t7️⃣\t8️⃣\t9️⃣')
+    print('1️⃣      2️⃣      3️⃣      4️⃣      5️⃣      6️⃣      7️⃣      8️⃣      9️⃣')
     print(''.join(game_board))
     print('congrats, you won')
     break
   # optional, for spacing
-  print('1️⃣\t2️⃣\t3️⃣\t4️⃣\t5️⃣\t6️⃣\t7️⃣\t8️⃣\t9️⃣')
+  print('1️⃣      2️⃣      3️⃣      4️⃣      5️⃣      6️⃣      7️⃣      8️⃣      9️⃣')
   # print the board
   print(''.join(game_board))
 
