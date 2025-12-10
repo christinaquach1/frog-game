@@ -1,7 +1,6 @@
-# defining player variables (if you're using emojis, make sure to have a space after them so it doesnt do the weird overlap thing)
-team_1 = '🔴      '
-team_2 = '🔵      '
-space = '⚫      '
+team_1 = '🔴     '
+team_2 = '🔵     '
+space = '⚫     '
 
 # defining the game board
 game_board = [
@@ -18,7 +17,7 @@ while True:
     print(''.join(game_board))
     print('congrats, you won')
     break
-  # optional, for spacing
+  
   print('1️⃣      2️⃣      3️⃣      4️⃣      5️⃣      6️⃣      7️⃣      8️⃣      9️⃣')
   # print the board
   print(''.join(game_board))
